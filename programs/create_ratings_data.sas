@@ -1,5 +1,5 @@
 data ratings;
-lenxxx stars 8 rating $ 15;
+length stars 8 rating $ 15;
 infile datalines dsd;
 input stars rating;
 datalines;
