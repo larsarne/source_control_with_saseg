@@ -18,7 +18,7 @@ proc sgplot data=TITLESDAYSRATINGS;
 	xaxis label="Date DVD shipped"  minor;
 run;
 
-title Average cost per DVD rental";
+title "Average cost per DVD rental";
 proc sgplot data=work.tsmovies;
 	series x=shipped y=costpermovie;
 	yaxis label="Cost per DVD";
