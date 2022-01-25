@@ -1,5 +1,5 @@
 ods graphics / height=500 width=1000;
-title "Days out vs. When shipped";
+title "Antall dager ut ift når de ble sendt";
 proc sgscatter data=work.TITLESDAYSRATINGS;
 	plot DaysOut*Shipped;
 run;
